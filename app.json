@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Mon Budget",
+    "slug": "mon-budget",
+    "scheme": "monbudget",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B1120",
+    "splash": {
+      "backgroundColor": "#0B1120"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.monbudget.app"
+    },
+    "android": {
+      "package": "com.monbudget.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1120"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
